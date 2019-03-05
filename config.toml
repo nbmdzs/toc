@@ -1,0 +1,35 @@
+baseurl                 = "https://toc.town/"               # Your domain name. Must end with "/"
+languageCode            = "en-us"
+defaultContentLanguage  = "en"
+isMultilingual          = false
+title                   = "Hello, the Online Citizen."
+theme                   = "sam"
+pygmentsStyle           = "monokai"                     # https://help.farbox.com/pygments.html
+pygmentsCodefences      = true
+# googleAnalytics         = "UA-259650-5"             # Tracking code, eg. "UA-111111111-1"
+
+[params]
+    dateform            = "Tue Mar 05, 2019"
+    dateformfull        = "Tue Mar 05 2019 21:00:00 EST"
+    favicon             = "sam.ico"
+    homepage            = "main"                        # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = false                          # Allow links to the full size images
+    smallPreviewImages   = true                         # Show small images from the subfolder instead of the big versions in the gallery
+                                                         # Note: This will only become active if clickablePhotos is also true.
+    smallImagesSubfolder = "small/"                      # The subfolder for the small versions of the images under the gallery (with trailing slash)
+                                                         # For each image the small version has to have the same filename as the big version.
+    footerText          = "Call me Sam, a theme for Hugo."
+
+# Metadata
+    description         = "the Online Citizen."            # Max 160 characters show in search results
+    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+
+[[params.mainMenu]]
+    link = "#"
+    text = "Hello,"
+
+[[params.mainMenu]]
+    link = "#"
+    text = "the Online Citizen."
